@@ -14,3 +14,6 @@
 
 # Command 2
 cut -c3 file.txt
+
+# What is the Difference between using the bash script and cut command
+# Cut command is not safe to use sometimes because we don't know that the file contains space or tab
