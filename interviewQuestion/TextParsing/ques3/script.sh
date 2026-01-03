@@ -8,4 +8,8 @@
 # chmod +x <file-name> and then try)
 #####################################################################################################
 
-awk '{print substr($0, 2, 1) substr($0, 7, 1)}' file.txt
+# command1
+# awk '{print substr($0, 2, 1) substr($0, 7, 1)}' file.txt
+
+# command2
+cut -c 2,7 file.txt
