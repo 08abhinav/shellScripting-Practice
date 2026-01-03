@@ -12,6 +12,11 @@
 # Command 1
 # awk '{print substr($0, 3, 1)}' file.txt
 
+# Here in above command 
+# $0 indicates the entire line and second parameter indicates characters for starting index and 
+# last parameter indicates that take 1 character from starting from the position 3
+# substr() line number, starting index and how much character
+
 # Command 2
 cut -c3 file.txt
 
