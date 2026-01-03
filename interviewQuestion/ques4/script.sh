@@ -9,4 +9,8 @@
 # chmod +x <file-name> and then try)
 #####################################################################################################
 
-awk '{print substr($0, 3, 1)}' file.txt
+# Command 1
+# awk '{print substr($0, 3, 1)}' file.txt
+
+# Command 2
+cut -c3 file.txt
