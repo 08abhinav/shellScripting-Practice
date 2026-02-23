@@ -12,6 +12,7 @@ set -exo pipefail
 
 FILE="app.log"
 
-if [[! -f "$FILE"]]; then
+if [[ ! -f "$FILE" ]]; then
     touch "$FILE"
-    echo "$(date '+%Y-%m-%d)" >> "$FILE"
+    echo "$(date +%Y-%m-%d)" >> "$FILE"
+fi
