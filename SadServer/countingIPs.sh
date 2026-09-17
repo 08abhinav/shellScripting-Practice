@@ -10,7 +10,7 @@
 # Write the solution into a file /home/admin/highestip.txt. For example, if your solution is "1.2.3.4", 
 # you can do echo "1.2.3.4" > /home/admin/highestip.txt
 #
-# NOTE: This script was executed on AWS ec2 instance.
+# NOTE: This script was executed on sadserver instance.
 #############################################################################################################################
 
 set -e

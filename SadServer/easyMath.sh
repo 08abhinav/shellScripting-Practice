@@ -13,7 +13,7 @@
 # E.g.: if average = 21.349 , the solution is 21.34. If average = 33.1 , the solution is 33.10.
 # Save the solution in the /home/admin/solution file, for example: echo "123.45" > ~/solution
 #
-# NOTE: This script was executed on AWS ec2 instance.
+# NOTE: This script was executed on sadserver instance.
 #############################################################################################################################
 
 awk '{sum += $2; count++} END {printf "%.2f\n", int(sum(/count)*100)/100}' /home/admin/scores.txt >  /home/admin/solution
