@@ -8,7 +8,7 @@
 # Find the file and save the word after "secret:" to the file /home/admin/secret.txt with a newline at the end 
 # (e.g. if the file contents were "secret:password" do: echo "password" > /home/admin/secret.txt).
 #
-# NOTE: This script was executed on AWS ec2 instance.
+# NOTE: This script was executed on sadserver instance.
 #############################################################################################################################
 
 
